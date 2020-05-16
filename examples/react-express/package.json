@@ -1,0 +1,30 @@
+{
+  "name": "react-express-moneris-example",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "nodemon server/server.js",
+    "build": "next build",
+    "start": "next start"
+  },
+  "prettier": {
+    "printWidth": 120,
+    "tabWidth": 2,
+    "singleQuote": true
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "body-parser": "^1.19.0",
+    "coupon-code": "^0.4.5",
+    "express": "^4.17.1",
+    "next": "latest",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "xml2js": "^0.4.23"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4",
+    "babel-plugin-styled-components": "^1.8.0",
+    "prettier": "^2.0.5"
+  },
+  "license": "ISC"
+}
